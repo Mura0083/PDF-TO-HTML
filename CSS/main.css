@@ -1,0 +1,112 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times;
+    font-family: serif;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 6rem 0 25rem 0;
+}
+
+
+/* headers */
+header {
+    margin-left: -1rem;
+}
+
+header p {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
+}
+
+heading-font {
+    font-family: serif;
+}
+
+h1,
+h2 {
+    font-family: serif;
+    border-bottom: grey solid 2px;
+    margin-bottom: .8rem;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/* headers */
+
+
+/* image */
+.lake img {
+    width: 100%;
+}
+
+.lake {
+    font-size: 1em;
+    font-weight: 500;
+    margin: auto 0;
+    padding-bottom: 2rem;
+}
+
+.lake figcaption {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.lake figcaption a {
+    text-decoration: none;
+}
+/* images */
+
+
+/* fonts */
+.bold-font {
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.subtitles {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+/* fonts */
+
+.paragraph1 p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.paragraph2 p {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.river-list p {
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 1.8rem;
+}
+
+.river-list ul {
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 1rem;
+    margin-bottom: 5.3rem;
+}
+
+.references li {
+    padding-left: 1.5rem;
+}
+
+.ref2 {
+    background-color: lightblue;
+}
