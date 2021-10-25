@@ -1,6 +1,10 @@
 html {
     font-family: Georgia, 'Times New Roman', Times;
     font-family: serif;
+    /*
+        You have two font-family properties, you should only have one.
+        The font-family value here should be the "sans-serif".
+    */
     line-height: 1.5;
 }
 
@@ -31,6 +35,7 @@ h2 {
     font-family: serif;
     border-bottom: grey solid 2px;
     margin-bottom: .8rem;
+    /* apply font-family: Georgia, 'Times New Roman', Times, serif; here */
 }
 
 .main-title {

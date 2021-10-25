@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- wrap all content in <main> -->
     <article class="container">
         <header>
             <h1 class="main-title">
@@ -17,7 +18,7 @@
         </header>
     
         <figure class="lake">
-            <img src="img/Algonquin_Cache_Lake_Lookout.jpeg" alt="Algonquin Lake Lookout"/>
+            <img src="img/Algonquin_Cache_Lake_Lookout.jpeg" alt="Algonquin Lake Lookout"/><!-- `alt` should be left empty when you have a <figcaption> as it describes the image -->
             <figcaption>
                 By Original uploader was Ptrbnsn at en.wikipedia - Transferred en.wikipedia, CC BY-SA 3.0,
                 <a href="https://commons.wikimedia.org/w/index.php?curid=10740912">https://commons.wikimedia.org/w/index.php?curid=10740912</a>
@@ -26,6 +27,11 @@
     
         <section class="paragraph1">
             <p>
+                <!--
+                    Use a <strong> here instead of a <span>. Although we want to avoid
+                    using a <strong> just to make things bold, in this case we are highlighting
+                    the name of a park, meaning we want to emphasis it, so should use <strong>
+                -->
                 <span class="bold-font">Algonquin Provincial Park</span> is a provincial park located between Georgian Bay and the Ottawa River, Ontario, Canada, mostly within the Unorganized South Part of Nipissing District. Established in 1893, it is the oldest provincial park in Canada.
                 <a class="links" href="https://en.wikipedia.org/wiki/Algonquin_Provincial_Park#cite_note-pressrelease-1">[1]</a>
                 Additions since its creation have increased the park to its current size of about 7,653 square kilometres (2,955 sq mi). The park is contiguous with several smaller, administratively separate provincial parks that protect important rivers in the area, resulting
@@ -44,7 +50,7 @@
         <section class="river-list">
             <h2 class="subtitles">Rivers</h2>
             <p>The park contains and protects the headwaters of these rivers:</p>
-            <ul>
+            <ul><!-- The list items are in alphabetical order, therefore should be in an <ol> ordered list. Use CSS to style as bullets -->
                 <li>Amable du Fond River</li>
                 <li>Barron River</li>
                 <li>Bonnechere River</li>
@@ -56,7 +62,7 @@
                 <li>York River</li>
             </ul>
         </section>
-        <section class="references">
+        <section class="references"><!-- A <footer> here would be more appropriate as it is the concluding footnote content -->
             <h2 class="subtitles">References</h2>
             <ol>
                     <li>
@@ -75,5 +81,6 @@
             </ol>
         </section>
     </article>
+    <!-- end </main> -->
 </body>
 </html>
